@@ -9,7 +9,7 @@ lst_comp = [x*x for x in range(5)]
 #List Comprehension, My Beloved
 '''
 
-| Player 1 | VS | Player 2 |
+| ***Player 1*** | ***VS*** | ***Player 2*** |
 |---|:---:|---:|
 | **Person A** | <- | ~~Person E~~ |
 | Person B |  | Person F |
