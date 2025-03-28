@@ -4,9 +4,10 @@ Title I guess
 [Recursion](https://ShackWoods.github.io)
 
 ```python
-s = "I code in Python"
-lst_comp = [x*x for x in range(5)]
+s = "I can [kinda] code in Python"
+
 #List Comprehension, My Beloved
+lst_comp = [x*x for x in range(5)]
 ```
 
 Bonus Title
