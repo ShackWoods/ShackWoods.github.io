@@ -20,5 +20,5 @@ Bonus Title
 | Person C |  | Person G |
 | ~~Person D~~ | -----> | ***Person H*** |
 
-#Branches
+# Branches
 [Tournament Hosting](https://shackwoods.github.io/tournaments/)
