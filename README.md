@@ -1,17 +1,20 @@
-Underlined
-==========
+Title I guess
+=============
 
 [Recursion](https://ShackWoods.github.io)
 
-'''python
+```python
 s = "I code in Python"
 lst_comp = [x*x for x in range(5)]
 #List Comprehension, My Beloved
-'''
+```
 
-| ***Player 1*** | ***VS*** | ***Player 2*** |
+Bonus Title
+===========
+
+| **Player 1** | **WINNER** | **Player 2** |
 |---|:---:|---:|
-| **Person A** | <- | ~~Person E~~ |
+| ***Person A*** | <- | ~~Person E~~ |
 | Person B |  | Person F |
 | Person C |  | Person G |
-| ~~Person D~~ | -> | **Person H** |
+| ~~Person D~~ | -> | ***Person H*** |
