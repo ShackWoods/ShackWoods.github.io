@@ -14,7 +14,7 @@ Bonus Title
 
 | **Player 1** | **WINNER** | **Player 2** |
 |---|:---:|---:|
-| ***Person A*** | <- | ~~Person E~~ |
+| ***Person A*** | <----- | ~~Person E~~ |
 | Person B |  | Person F |
 | Person C |  | Person G |
-| ~~Person D~~ | -> | ***Person H*** |
+| ~~Person D~~ | -----> | ***Person H*** |
