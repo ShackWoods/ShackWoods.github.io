@@ -18,4 +18,4 @@
 
 ## Teams of Note
 
-24/25 Grand Challenge I: Hard TR PsySpam - https://pokepast.es/c47326d643f5da43
+24/25 Grand Challenge I: [Hard TR PsySpam](https://pokepast.es/c47326d643f5da43)
