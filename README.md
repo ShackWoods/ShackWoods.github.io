@@ -14,7 +14,7 @@ lst_comp = [x*x for x in range(5)]
 
 # About Me
 
-G'day, I'm <CANNOT FIND NAME> studying Computer Science at <CANNOT FIND INSTITUTE>.
+G'day, I'm NAME NOT FOUND studying Computer Science at INSTITUTE NOT FOUND.
 
 I'm yet to do anything cool - come back later.
 
