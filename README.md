@@ -18,14 +18,12 @@ G'day, I'm NAME NOT FOUND studying Computer Science at INSTITUTE NOT FOUND.
 
 I'm yet to do anything cool - come back later.
 
-I'm interesting in computer organization and programming languages.
+I'm interesting in computer organization and programming languages - currently learning about compilers.
+[My Bad Language](https://github.com/ShackWoods/Programming-Language/blob/main/README.md)
 
 I enjoy playing [Pokémon VGC](https://shackwoods.github.io/PKMN/VGC/).
 
-# Branches
-[Tournament Hosting](https://shackwoods.github.io/Tournaments/)
-
-[Pokémon VGC](https://shackwoods.github.io/PKMN/VGC/)
+Ook probeer ik om Nederlands te leren.
 
 Bonus Title
 ===========
