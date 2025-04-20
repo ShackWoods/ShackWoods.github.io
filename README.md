@@ -12,6 +12,16 @@ s = "I can [kinda] code in Python"
 lst_comp = [x*x for x in range(5)]
 ```
 
+# About Me
+
+G'day, I'm <CANNOT FIND NAME> studying Computer Science at <CANNOT FIND INSTITUTE>.
+
+I'm yet to do anything cool - come back later.
+
+I'm interesting in computer organization and programming languages.
+
+I enjoy playing [Pokémon VGC](https://shackwoods.github.io/PKMN/VGC/).
+
 # Branches
 [Tournament Hosting](https://shackwoods.github.io/Tournaments/)
 
