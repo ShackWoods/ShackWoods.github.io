@@ -4,6 +4,8 @@
 
 ## My Achievements
 
+Nothing that impressive - come back later :D
+
 24/25:
 - 282nd Grand Challenge I
 - 1x League Challenge Champion
