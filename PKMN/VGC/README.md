@@ -14,6 +14,7 @@ Nothing that impressive - come back later :D
 
 ## Championship Points
 
+- 25/26: 13
 - 24/25: 74
 - 23/24: D:
 - 22/23: 10
