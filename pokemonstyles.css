@@ -1,0 +1,37 @@
+#AchieveCP {
+    margin: auto;
+}
+#Achievements {
+    width: 50%;
+    float: left;
+}
+#CP {
+    width: 50%;
+    float: left;
+}
+#Teams {
+    clear: both;
+    padding-top: 16px;
+}
+
+#Note{
+    font-style: italic;
+}
+
+#ResultList, #PointList {
+    margin: auto;
+    background-color: #343040;
+    width: fit-content;
+    height: fit-content;
+    padding: 0.25em 2em 0.25em 2em;
+    text-align: left;
+}
+#ResultList p{
+    font-weight: bolder;
+}
+#PointList li.Best {
+    color: #33a805;
+}
+#PointList li.Worst {
+    color: #c40404;
+}
