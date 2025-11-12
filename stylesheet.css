@@ -22,9 +22,11 @@ body {
 #HeadLink {
     position:relative;
     top: 25%;
+    right: 10%;
     width: 25%;
     height: 50%;
     float: right;
+    border-radius: 10px;
     background-color: #141414;
 }
 
@@ -59,6 +61,7 @@ th, td {
 #CodeBox {
     margin: auto;
     background-color: #696470;
+    border-radius: 25px;
     width: fit-content;
     height: fit-content;
     padding: 0.25em 2em 0.25em 2em;

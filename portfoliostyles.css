@@ -1,0 +1,50 @@
+.ContainerBox {
+    position:relative;
+    width: 40%;
+    height: 10%;
+    top: 40px;
+    border-radius: 25px;
+}
+#Ongoing {
+    left: 5%;
+    float: left;
+    background-color: #696470;
+}
+#Completed {
+    right: 5%;
+    float: right;
+    background-color: #696470;
+}
+
+.ProjectBox {
+    position:relative;
+    left: 10%;
+    width: 80%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    padding: 4px;
+}
+#CS {
+    background-color: #272430;
+}
+#TimBox {
+    background-color: #402144;
+}
+#Date {
+    color: #999999;
+    font-weight: bold;
+}
+#Link {
+    font-weight: bold;
+}
+#SkillsBox {
+    position:relative;
+    left: 10%;
+    width: 80%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    padding: 4px;
+    background-color: #5a4317;
+}
