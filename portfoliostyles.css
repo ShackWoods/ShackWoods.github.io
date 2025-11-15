@@ -1,19 +1,19 @@
 .ContainerBox {
     position:relative;
-    width: 40%;
+    width: 45%;
     height: 10%;
     top: 40px;
     border-radius: 25px;
+    background-color: #696470;
+    padding-bottom: 16px;
 }
 #Ongoing {
-    left: 5%;
+    left: 3%;
     float: left;
-    background-color: #696470;
 }
 #Completed {
-    right: 5%;
+    right: 3%;
     float: right;
-    background-color: #696470;
 }
 
 .ProjectBox {
@@ -25,20 +25,23 @@
     border-radius: 25px;
     padding: 4px;
 }
-#CS {
-    background-color: #272430;
+.CS {
+    background-color: #321f6b;
 }
-#TimBox {
-    background-color: #402144;
+.TimBox {
+    background-color: #385045;
 }
-#Date {
+.Personal {
+    background-color: #3d3015;
+}
+.Date {
     color: #999999;
     font-weight: bold;
 }
-#Link {
+.Link {
     font-weight: bold;
 }
-#SkillsBox {
+.SkillsBox {
     position:relative;
     left: 10%;
     width: 80%;
