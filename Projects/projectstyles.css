@@ -1,0 +1,16 @@
+#Narrative {
+    background-color: #696470;
+}
+#Skills {
+    background-color: #696470;
+}
+
+.box {
+    position:relative;
+    left: 10%;
+    width: 80%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    padding: 4px;
+}
