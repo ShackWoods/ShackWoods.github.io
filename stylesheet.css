@@ -8,6 +8,7 @@ body {
 
 #Header {
     position: sticky;
+    z-index:999;
     margin: auto;
     width: 100%;
     height: 100px;
@@ -29,6 +30,7 @@ body {
     border-radius: 10px;
     background-color: #141414;
 }
+
 
 a{
     color: #3a8fde;

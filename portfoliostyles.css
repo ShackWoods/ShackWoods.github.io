@@ -1,19 +1,29 @@
 .ContainerBox {
-    position:relative;
     width: 45%;
-    height: 10%;
-    top: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     border-radius: 25px;
     background-color: #696470;
     padding-bottom: 16px;
 }
 #Ongoing {
-    left: 3%;
+    margin-left: 3%;
     float: left;
 }
 #Completed {
-    right: 3%;
+    margin-right: 3%;
     float: right;
+}
+
+#Information {
+    clear:both;
+    width: 94%;
+    margin-left: 3%;
+    margin-right: 3%;
+    border-radius: 25px;
+    background-color: #696470;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 .ProjectBox {
