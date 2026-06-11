@@ -1,0 +1,20 @@
+{
+    "title": "TEMPORARY ONCE MORE",
+    "type": "TimBox",
+    "startDate": "02/06/2026",
+    "endDate": null,
+    "information": {
+        "overview": "I am an overview",
+        "detailed": "I am an overview for a temporary project to test a pseudo-dynamic webpage"
+    },
+    "skills": [
+        {
+            "skill": "Dynamic stuff",
+            "explanation": "QED"
+        },
+        {
+            "skill": "Writing",
+            "explanation": "isn't it immaculate"
+        }
+    ]
+}

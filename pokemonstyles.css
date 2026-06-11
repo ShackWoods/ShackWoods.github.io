@@ -2,29 +2,33 @@
     margin: auto;
 }
 #Achievements {
-    width: 50%;
+    width: 37%;
     float: left;
+    margin-left: 8%;
+    margin-right: 5%
 }
-#CP {
-    width: 50%;
-    float: left;
+#RightSide {
+    width: 37%;
+    float: right;
+    margin-left: 5%;
+    margin-right: 8%;
 }
 #Teams {
-    clear: both;
-    padding-top: 16px;
+    padding-top: 32px;
 }
 
 #Note{
     font-style: italic;
 }
 
-#ResultList, #PointList {
+.ListBox {
     margin: auto;
     background-color: #343040;
     width: fit-content;
     height: fit-content;
     padding: 0.25em 2em 0.25em 2em;
     text-align: left;
+    border-radius: 5%;
 }
 #ResultList p{
     font-weight: bolder;
@@ -34,4 +38,7 @@
 }
 #PointList li.Worst {
     color: #c40404;
+}
+#TeamList {
+    text-align: center;
 }
