@@ -29,15 +29,6 @@ function loadBox(project, isOngoing, index){
     date.classList.add("Date");
     extendedDate = project.startDate + " --> " + project.endDate;
     date.innerHTML = extendedDate;
-
-    const link = document.createElement("BUTTON");
-    link.classList.add("Link");
-    link.textContent = "More Information";
-    link.dataset.title = project.title;
-    link.addEventListener('click', (event) => {
-        event.preventDefault();
-        updateInformationBox(link.dataset.title);
-    });
     
     const info = document.createElement("p");
     info.innerHTML = project.information.overview;
@@ -53,11 +44,20 @@ function loadBox(project, isOngoing, index){
     skillList.innerHTML = skillText;
     skills.appendChild(skillList);
 
+    const link = document.createElement("BUTTON");
+    link.classList.add("Link");
+    link.textContent = "More Information";
+    link.dataset.title = project.title;
+    link.addEventListener('click', (event) => {
+        event.preventDefault();
+        updateInformationBox(link.dataset.title);
+    });
+
     projectBox.appendChild(title);
     projectBox.appendChild(date);
-    projectBox.appendChild(link);
     projectBox.appendChild(info);
     projectBox.appendChild(skills);
+    projectBox.appendChild(link);
     
     return projectBox;
 }
@@ -102,6 +102,7 @@ function updateInformationBox(title){
     for(s=0;s<project.skills.length;s++){
         thisSkill = project.skills[s]
         const skillBox = document.createElement("div");
+        skillBox.classList.add("DetailedSkillsBox")
         const skillTitle = document.createElement("h3");
         skillTitle.innerHTML = thisSkill.skill;
         const skillExplanation = document.createElement("p");

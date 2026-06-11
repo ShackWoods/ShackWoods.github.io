@@ -36,28 +36,53 @@
     padding: 4px;
 }
 .CS {
-    background-color: #321f6b;
+    background-color: #5b1e85;
 }
 .TimBox {
-    background-color: #385045;
+    background-color: #295a25;
 }
 .Personal {
-    background-color: #3d3015;
+    background-color: #c96600;
 }
 .Date {
-    color: #999999;
+    color: #ffffff;
     font-weight: bold;
 }
 .Link {
-    font-weight: bold;
+    width: 200px;
+    height: 40px;
+    color: white;
+    font-weight: bolder;
+    background-color: #00000030;
+    border-style: none;
+    border-radius: 25px;
+    margin-bottom: 20px;
 }
+.Link:hover {
+  background-color: #00000066;
+  cursor: pointer;
+}
+
 .SkillsBox {
     position:relative;
-    left: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
     width: 80%;
+    margin-top: 0px;
+    margin-bottom: 12px;
+    border-radius: 25px;
+    padding: 4px 16px;
+    background-color: #00000030;
+}
+
+.DetailedSkillsBox{
+    position:relative;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
     margin-top: 0px;
     margin-bottom: 20px;
     border-radius: 25px;
     padding: 4px;
-    background-color: #5a4317;
+    background-color: #00000025;
 }

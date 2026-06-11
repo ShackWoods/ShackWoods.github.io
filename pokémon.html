@@ -10,14 +10,14 @@
   <body>
     <div id = "Header">
         <img class = "HeadImg" src = "Images/ZwartTim.png" alt = "Tim"/>
-        <div id = "HeadLink">
-            <p><a href = "portfolio.html">Portfolio</a></p>
+        <div id = "LeftLink" class = "HeadLink">
+            <p><a href = "index.html">Main</a></p>
         </div>
-        <div id = "HeadLink">
+        <div class = "HeadLink">
             <p><a href = "pokémon.html">Pokémon</a></p>
         </div>
-        <div id = "HeadLink">
-            <p><a href = "index.html">Main</a></p>
+        <div class = "HeadLink">
+            <p><a href = "portfolio.html">Portfolio</a></p>
         </div>
     </div>
 
@@ -28,13 +28,13 @@
         <div id = "Achievements">
             <h2>My Achievements</h2>
             <p id = "Note">Nothing that impressive - come back later :D</p>
-            <div id = "ResultList">
+            <div id = "ResultList" class = "ListBox">
                 <p>25/26:</p>
                 <ul>
                     <li>420th European International Championship</li>
+                    <li>229th European Grand Challenge II</li>
                     <li>1x League Challenge Champion</li>
                     <li>1x League Challenge Finalist</li>
-                    <li>229th European Grand Challenge II</li>
                 </ul>
                 <p>24/25:</p>
                 <ul>
@@ -46,25 +46,28 @@
             </div>
         </div>
 
-        <div id = "CP">
-            <h2>Championship Points</h2>
-            <ol id = "PointList" start = 2026 reversed>
-                <li class = "Best">125</li>
-                <li>74</li>
-                <li class = "Worst">D:</li>
-                <li>10</li>
-            </ol>
+        <div id = "RightSide">
+            <div id = "CP">
+                <h2>Championship Points</h2>
+                <ol id = "PointList" class = "ListBox" start = 2026 reversed>
+                    <li class = "Best">125</li>
+                    <li>74</li>
+                    <li class = "Worst">D:</li>
+                    <li>10</li>
+                </ol>
+            </div>
+            <div id = "Teams">
+                <h2>Teams of Note</h2>
+                <div id = "TeamList" class = "ListBox">
+                    <p>25/26 European International Championship: 
+                        <a href = "https://pokepast.es/924e306e50287ddb">The dog and his bell</a></p>
+                    <p>25/26 European Grand Challenge II: 
+                        <a href = "https://pokepast.es/b63bbeb9566bd89b">Still Hard TR PsySpam</a></p>
+                    <p>24/25 Grand Challenge I: 
+                        <a href = "https://pokepast.es/c47326d643f5da43">Hard TR PsySpam</a></p>
+                </div>
+            </div>
         </div>
-    </div>
-
-    <div id = "Teams">
-        <h2>Teams of Note</h2>
-        <p>25/26 European International Championship: 
-            <a href = "https://pokepast.es/924e306e50287ddb">The dog and his bell</a></p>
-        <p>25/26 European Grand Challenge II: 
-            <a href = "https://pokepast.es/b63bbeb9566bd89b">Still Hard TR PsySpam</a></p>
-        <p>24/25 Grand Challenge I: 
-            <a href = "https://pokepast.es/c47326d643f5da43">Hard TR PsySpam</a></p>
     </div>
   </body>
 </html>
