@@ -1,0 +1,17 @@
+{
+    "title": "ShackWoods.github.io",
+    "type": "CS",
+    "startDate": "03/04/2025",
+    "endDate": null,
+    "information": {
+        "overview": "This very website",
+        "detailed": "Not much to say, just wanted a website to talk about stuff I do that I can update as I learn new things.<br>This originally started out using markdown files, but shifted to HTML, CSS and JavaScript when I started university in 2025."
+    },
+    "skills": [
+        {
+            "skill": "HTML, CSS, JavaScript",
+            "explanation": "Not all professional conventions have been followed, but this website shows the basics of these skills"
+        }
+    ],
+    "link": "https://shackwoods.github.io/"
+}

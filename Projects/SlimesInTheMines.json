@@ -1,0 +1,20 @@
+{
+    "title": "Slimes In The Mines",
+    "type": "TimBox",
+    "startDate": "14/01/2025",
+    "endDate": null,
+    "information": {
+        "overview": "A card game for my friends that might get sold",
+        "detailed": "Before talking about this card game, it is important to discuss what led up to it's creation.<br>I've previously made other card and board games for my friends to play, but these suffered from overcomplicated rules which worsened the experience.<br>This led to me creating Slimes In The Mines with the goal of keeping the game as simple as possible.<br>I started out with a version printed on paper and packed into sleeves with pokémon cards.<br>After playing this version with my friends, it was clear that most of the mechanics were right.<br>But there was a glaring flaw: the point values were way too high.<br>After updating the cards accordingly, the game was already miraculously complete.<br>Fast forward a couple months, and my friends and I had played the game practically daily, so it felt right to upgrade the game.<br>Initially, the art was going to be vector art of human character.<br>I then realised that I had no art experience, and didn't feel like trying to learn the skill in a couple days.<br>This resulted in the design pivotting to a simpler 8-bit style which I am more comfortable with.<br>This new paradigm made it difficult to have expressive humans, and thus the titular slimes were born.<br>At this point, the game was complete, looked professional and was proven fun to play.<br>Hopefully I will launch a Kickstarter campaign to share the project for even more people to enjoy."
+    },
+    "skills": [
+        {
+            "skill": "Game Design",
+            "explanation": "I made a game.<br>Lots of people said it was fun."
+        },
+        {
+            "skill": "Accepting Feedback",
+            "explanation": "I designed this game first and foremost for my friends, so to ensure the game was fun I've had to make repeated revisions to the game.<br>This is not the first game I've made for my friends, so I looked at what went wrong with the others to design this one."
+        }
+    ]
+}

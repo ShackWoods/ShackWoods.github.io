@@ -83,7 +83,11 @@ function updateInformationBox(title){
     infoBox.innerHTML = "";
 
     const infoTitle = document.createElement("h1");
-    infoTitle.innerHTML = project.title;
+    if(Object.keys(project).includes("link")){
+        infoTitle.innerHTML = `<a href = "${project.link}">${project.title}</a>`;
+    } else{
+        infoTitle.innerHTML = project.title;
+    }
 
     const infoHeader = document.createElement("h2");
     infoHeader.innerHTML = "Story/Methodology";
@@ -122,12 +126,22 @@ async function wrapper(){
         thisBox = loadBox(project);
         ongoingBox.appendChild(thisBox);
     });
+    if(projects.ongoing.length === 0){
+        const ongoingFiller = document.createElement("p");
+        ongoingFiller.innerHTML = "No Ongoing Projects :)";
+        ongoingBox.appendChild(ongoingFiller);
+    };
 
     completedBox = document.getElementById("Completed");
     projects.completed.forEach((project) => {
         thisBox = loadBox(project);
         completedBox.appendChild(thisBox);
     });
+    if(projects.completed.length === 0){
+        const completedFiller = document.createElement("p");
+        completedFiller.innerHTML = "No Completed Projects - Come Back Later :)";
+        completedBox.appendChild(completedFiller);
+    };
 };
 
 wrapper();
